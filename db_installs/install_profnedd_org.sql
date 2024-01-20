@@ -16,11 +16,13 @@
 -- Database Creation and Use:
 --
 -- Drop Database
-
+DROP DATABASE IF EXISTS guttman_classdb_assign1;
 -- Create database
-
+CREATE DATABASE guttman_classdb_assign1
+DEFAULT CHARACTER SET utf8
+COLLATE utf8_general_ci;
 -- Use database
-
+USE guttman_classdb_assign1
 
 -- Begin populating database
 
